@@ -1,4 +1,5 @@
 import express, { Application, Request, Response, NextFunction, request, response } from "express";
+import { CustomersController } from "./customers/customers.controller";
 import { HTTP_STATUS_CODES, ServerResponse } from "./interfaces";
 
 // initialize the app
@@ -7,7 +8,7 @@ const app: Application = express()
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// app.use(' /customers',);
+app.get('/customers', CustomersController.getCustomers);
 
 app.use((req: Request, res: Response, next: NextFunction) => {
     const errorResponse: ServerResponse = {
