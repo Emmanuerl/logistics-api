@@ -4,7 +4,7 @@ import request from "supertest";
 describe('GET /customers - retrieve customers list', () => {
 
     it("should receive a response code of 200", async () => {
-        const result = await request(app).get("/customers");
+        const result = await request(app).get("/");
         expect(result.statusCode).toEqual(200);
     });
 

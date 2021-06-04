@@ -4,6 +4,8 @@ a simple nodeJS/express based API server for an interview assessment
 
 [Click here to view the live API demo](https://ancient-ocean-41016.herokuapp.com/ )
 
+[Click here to view the API documentation](https://documenter.getpostman.com/view/)
+
 - <b>How to setup</b>
 ```
 # clone the repository
