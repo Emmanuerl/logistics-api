@@ -15,7 +15,7 @@ $ git clone
 ```
 ```
 # cd into project directory
-$ cd path/to/directory
+$ cd path_to_directory
 ```
 ```
 # install dependencies (this project uses yarn as its package manager)
