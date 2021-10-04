@@ -17,6 +17,6 @@ class Server {
 
 const server = new Server(app);
 
-server.start();
+export default () => new Server(app);
 
 
